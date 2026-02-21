@@ -1,0 +1,24 @@
+{
+  "name": "smarty-scope-resolution-patch",
+  "displayName": "Smarty Scope Resolution Patch",
+  "description": "Adds class constant / static method / static property syntax highlighting to Smarty templates.",
+  "version": "0.0.1",
+  "publisher": "alexchexes-local",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "smarty.scope-resolution.patch.injection",
+        "path": "./syntaxes/smarty-scope-resolution.injection.json",
+        "injectTo": [
+          "text.html.smarty"
+        ]
+      }
+    ]
+  }
+}
